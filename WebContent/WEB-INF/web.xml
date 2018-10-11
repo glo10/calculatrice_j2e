@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+
+	<servlet>
+	
+		<servlet-name>Calculatrice</servlet-name>
+		<servlet-class>fr.opcr.activite1/Calculatrice</servlet-class>
+		
+	</servlet>
+	
+	<servlet-mapping>
+	
+		<servlet-name>Calculatrice</servlet-name>
+		<url-pattern>/</url-pattern>
+		<url-pattern>/calculatrice</url-pattern>
+		
+	</servlet-mapping>
+	
+</web-app>
